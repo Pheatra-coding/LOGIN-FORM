@@ -1,0 +1,398 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* body {
+    overflow-y: hidden;
+} */
+
+.container .left-container {
+    background: #292929;
+    width: 35px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    border-right: 2px solid lightgray;
+}
+
+.container .left-container ul li span {
+    color: white;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.container .left-container ul li:hover {
+    background:rgb(126, 116, 116);
+}
+li {
+    list-style: none;
+}
+.container .left-container ul hr {
+    margin-top: 8px;
+    color: rgb(126, 116, 116);
+}
+
+.header {
+    background: #292929;
+    margin-left: 34px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding: 4px;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul button {
+    margin-left: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.308);
+    width: 60px;
+    border: none;
+    border: 6px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header ul button:hover {
+    transform: scale(1.05);
+}
+.header ul .icon {
+    display: flex;
+    margin-left: 400px;
+    column-gap: 15px;
+}
+
+.header ul .icon li:hover{
+    background:rgb(126, 116, 116);
+
+}
+.header ul li.p{
+    color: white;
+    margin-top: 5px;
+}
+.header ul span {
+    color: white;
+}
+
+main {
+    margin-top: 28px;
+    margin-left: 34px;  
+}
+
+main .main-header {
+    background: white;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+}
+
+main .main-header h1 {
+    color: black;
+    margin-left: 50px;
+}
+
+
+main .main-header ul {
+    display: flex;
+    column-gap: 30px;
+    margin-left: 30%;
+}
+
+main .main-header ul li {
+    margin-top: 10px;
+    color: black;
+}
+
+main .main-header ul li:hover {
+    border: 1px solid blue;
+}
+
+main .main-header h1:hover{
+    border: 1px solid blue;
+}
+
+main .main-header ul button {
+    border: none;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    background: black;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+main .main-header ul button:hover {
+    border: 1px solid blue;
+    transform: scale(1.05);
+}
+
+.main-body {
+    display: flex;
+    background: black;
+    width: 100%;
+    height: 110vh;
+    overflow-y: scroll;
+}
+
+.main-body .mian-text {
+    color: white;
+    width: 45%;
+}
+
+.main-body .mian-text h2:hover{
+    border: 1px solid blue;
+    width: 70%;
+}
+
+.main-body .mian-text p:hover {
+    border: 1px solid blue;
+    width: 80%;
+}
+
+.main-body .mian-text h2{
+    margin-top: 20%;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+
+}
+
+.main-body .mian-text p, h5, h2{
+    margin-left: 70px;
+}
+
+.main-body .mian-text h5 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.main-body .mian-text h5:hover {
+    border: 1px solid blue;
+    width: 70%;
+}
+.main-body .main-login {
+    background: white;
+    height: 85vh;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.main-login .input-group {
+    display: flex;
+    column-gap: 30px;
+    padding: 25px;
+}
+
+
+.main-login .input-group .row {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-login .input-group .row label {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.main-login .input-group .row label:hover {
+    border: 1px solid blue;
+}
+
+.main-login .input-group .row input {
+    padding: 20px 0px;
+    border: none;
+    text-align: center;
+    font-size: 17px;
+}
+
+.main-login .input-group .row input:hover {
+    border: 1px solid blue;
+    border-radius: 50px;
+}
+
+.main-login button {
+    background: orangered;
+    cursor: pointer;
+    padding: 30px;
+    border: none;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 100px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.main-login button:hover {
+    border: 1px solid blue;
+    transform: scale(1.05);
+}   
+
+input {
+    outline: none;
+}
+
+.second-body .group-text {
+    padding: 100px;
+}
+
+.second-body .group-text h1:hover {
+    border: 1px solid blue;
+    width: 80%;
+}
+
+.second-body .group-text .all-text {
+    text-align: justify;
+    margin-top: 50px;
+    display: flex;
+    gap: 10%;
+}
+
+
+.second-body .group-text .all-text .box-text {
+    width: 20%;
+}
+
+.second-body .group-text .all-text .box-text:hover {
+    border: 1px solid blue;
+}
+
+.div-block {
+    text-align: justify;
+    margin-top: 50px;
+    display: flex;
+}
+
+.div-block .block .icon{
+    font-size: 40px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.div-block .block .icon:hover {
+    border: 1px solid blue;
+}
+.div-block .block h2 {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.div-block .block {
+    width: 25%;
+}
+.div-block .block h2:hover{
+    border: 1px solid blue;
+}
+
+.div-block .block p {
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.div-block .block p:hover {
+    border: 1px solid blue;
+}
+
+.second-body hr  {
+    margin-top: 50px;
+    border: 0.7px solid rgb(108, 108, 202);
+}
+
+.group-image {
+    margin-top: 50px;
+    display: flex;
+}
+.group-image .image-text {
+    width: 40%;
+    margin-left: 100px;
+}
+
+.group-image .image-text h6 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.group-image .image-text h6:hover {
+    border: 1px solid blue;
+    width: 70%;
+}
+
+.group-image .image-text p:hover {
+    border: 1px solid blue;
+    width: 100%;
+}
+.group-image .image-text .bnt {
+    margin-top: 10px;
+}
+
+.group-image .image-text .bnt .btn-pink {
+    padding: 20px 30px;
+    background: rgb(212, 79, 101);
+    color: white;
+    border: none;
+    border-radius: 30px 50px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.group-image .image-text .bnt .btn-pink:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.group-image .image-text .bnt .bnt-white {
+    border-radius: 30px 50px;
+    padding: 20px 30px;
+    margin-left: 30px;
+    border: 1px solid rgb(116, 106, 106);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.group-image .image-text .bnt .bnt-white:hover {
+    transform: scale(1.05);
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.cat {
+    width: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.cat:hover {
+    transform: scale(1.05);
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.sencond-text {
+    margin-top: 50px;
+}
+
+.sencond-text p {
+    font-weight: bold;
+    text-align: center;
+    color: rgb(197, 58, 81);
+}
+
+.sencond-text h5 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.sencond-text p.l {
+    text-align: center;
+    color: black;
+    font-weight: 100;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+footer {
+    padding: 20px;
+    background: black;
+    color: white;
+    text-align: center;
+}
